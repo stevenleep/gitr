@@ -19,6 +19,7 @@ echo "============== GIT配置增强成功 ======================="
 
 
 # ref https://git-scm.com/docs/githooks
+# ref https://github.com/git/git/blob/6675f501f6b987dbdb0dbeb1d2efeb5a27fc41a7/Documentation/config.txt#L621-L636
 echo "============== GIT HooksPath ================="
-git config --local core.hooksPath ../.workspace/githooks
+# git config core.hooksPath ../.workspace/githooks
 echo "============== GIT HooksPath Successful ======"

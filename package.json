@@ -1,10 +1,25 @@
 {
-  "name": "git-hooks-demo",
+  "name": "gitcr",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "lishiwen <lishiwen@wclound.cn>",
+  "main": "./lib/index.js",
+  "config": {
+    "templates": {
+      "gitconfig": "./temps/.gitconfig"
+    }
+  },
+  "bin": {
+    "gitr": "./cli.js"
+  },
+  "author": {
+    "name": "lishiwen",
+    "email": "lishiwen@wclound.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/branlice/gitr/tree/core"
+  },
   "license": "MIT",
   "scripts": {
-    "preinstall": "sh ./scripts/preinstall.sh"
+    "gitr": "gitr"
   }
 }

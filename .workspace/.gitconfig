@@ -12,7 +12,6 @@
     # 允许外部文件
     word2 = "! bash ./.workspace/gitconfigs/word.sh"
 
-
 # 一些时候我们希望通过git提供的一些能力来增强协作体验和规范, 比如git hooks能力
 # 他们可能在内部相互引用不同shell脚本或者其他资源
 # 这时候在.git/config处理存在一些风险

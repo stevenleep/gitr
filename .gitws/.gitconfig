@@ -1,0 +1,4 @@
+#! /bin/bash
+
+[alias]
+    r = "! echo "gitr is runing..."" #  this is test command

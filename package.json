@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "lishiwen <lishiwen@wclound.cn>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gitcr": "^1.0.0"
+  }
 }

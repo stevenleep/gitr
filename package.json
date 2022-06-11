@@ -1,10 +1,7 @@
 {
-  "name": "git-hooks-demo",
+  "name": "gitcr-demo",
   "version": "1.0.0",
   "main": "index.js",
   "author": "lishiwen <lishiwen@wclound.cn>",
-  "license": "MIT",
-  "scripts": {
-    "preinstall": "sh ./scripts/preinstall.sh"
-  }
+  "license": "MIT"
 }
